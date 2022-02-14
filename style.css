@@ -1,0 +1,165 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #10101B;
+    height: 100vh;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.half-width {
+    height: 570px;
+    background: #222436;
+    padding: 30px;
+    text-align: center;
+}
+
+.generate-btn {
+    margin: 0 auto;
+    margin-top: 140px;
+    width: 10em;
+    padding: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #425062;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    transition: all .3s;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a;
+}
+
+.generate-btn:hover {
+    background-color: #1C8D73;
+}
+
+.generate-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.show-generated-pin {
+    background-color: #3D4153 !important;
+    color: #ffffff !important;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    height: 50px;
+    padding: 10px;
+}
+
+.show-generated-span {
+    letter-spacing: 1em;
+    padding-left: 1em;
+    text-align: center;
+}
+
+.numbers {
+    margin: 30px 0;
+}
+
+.calc-typed {
+    margin-top: 20px;
+    font-size: 45px;
+    text-align: right;
+    color: #fff;
+}
+
+.calc-button-row {
+    width: 100%;
+}
+
+.button,
+.input-panels div {
+    width: 20%;
+    height: 3em;
+    background: #425062;
+    color: #fff;
+    padding: 20px 0;
+    margin: 5px;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: -4px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    box-shadow: 0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a;
+
+}
+
+.button:hover {
+    background: #03203C;
+}
+
+.input-panels .shake {
+    animation: shake 250ms ease-in-out;
+}
+
+@keyframes shake {
+    10% {
+        transform: translateX(-5%);
+    }
+
+    30% {
+        transform: translateX(5%);
+    }
+
+    50% {
+        transform: translateX(-7.5%);
+    }
+
+    70% {
+        transform: translateX(7.5%);
+    }
+
+    90% {
+        transform: translateX(-5%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.blink-me {
+    color: #E0B612;
+}
+
+
+
+.notify {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background: #222436;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+.notify-section {
+    width: 35%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.action-left {
+    color: #FF3C5F;
+    margin-top: 10px;
+}
+
+#bootToast {
+    inset: 0;
+}
